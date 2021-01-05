@@ -1,23 +1,55 @@
+  body{
+    text-align: center;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .title{
   text-align: center;
   font-size: 70px;
+  color: green;
 }
 .gamebox {
   display: grid;
   grid-template-columns: repeat(3, auto);
   width: 306px;
   margin: 50px auto;
+  background-color: burlywood;
+  
 }
 .cell {
   font-family: "Permanent Marker", cursive;
   width: 100px;
   height: 100px;
-  box-shadow: 0 0 0 1px #333333;
-  border: 1px solid #333333;
+  box-shadow: 2px 3px 4px 5px #333333;
+  border: 1px solid #000000;
   cursor: pointer;
 line-height: 100px;
   font-size: 60px;
 }
-.butt{
-  text-align: center;
+.p1{
+  float: left;
+  font-size: 40px;
+  width: 30%;
+color: brown;
+text-shadow: 0 0 3px black;
+
 }
+.p2{
+  float: right;
+  font-size: 40px;
+  width: 30%;
+  color: brown;
+  text-shadow: 0 0 3px black;
+}
+.restart{
+  background-color: burlywood; 
+  color: brown;
+  border: 2px solid brown;
+  font-size: 150%;
+  padding: 15px 32px;
+  text-align: center;
+  border-style: solid;
+  cursor: pointer;
+  
+  }
